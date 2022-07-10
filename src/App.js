@@ -9,7 +9,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Izabela Laszczuk</footer>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/IzabelaLas/dictionary-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          made by Izabela Laszczuk
+        </footer>
       </div>
     </div>
   );
